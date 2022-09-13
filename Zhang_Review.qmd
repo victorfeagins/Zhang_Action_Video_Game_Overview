@@ -1,0 +1,24 @@
+---
+title: "Zhang et al. (2021) Review"
+editor: source
+author:
+  - name: "Victor Feagins"
+    affiliation: "UW - Madsion, Education Psychology" 
+date: 9/13/2022
+
+bibliography: references.bib
+format: 
+  html:
+    toc: true
+---
+
+### Mission
+
+The goal of this document is to summarize and provide discussion[^Q] on @Zhang2021 and present the results to my lab group.
+[^Q]: and get more practice with Quarto
+
+
+### Abstract Impressions
+
+
+
