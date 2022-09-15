@@ -1,5 +1,5 @@
 ---
-title: "Zhang et al. (2021) Review"
+title: "Zhang et al. (2021) Overview"
 editor: source
 author:
   - name: "Victor Feagins"
@@ -8,7 +8,7 @@ date: 9/16/2022
 
 bibliography: references.bib
 format: 
-  html:
+  pdf:
     toc: true
 ---
 
@@ -26,13 +26,35 @@ The paper is 2 experimental studies where two groups of people where given two t
 
 [^3]: simulation games
 
-The goal was to analyze the learning rate of various tests before and after playing video games to see how the learning rate changed. The paper found that people who played action videos games learned faster on new tests. @Zhang2021 refer to this as "learning to learn"
+The goal was to analyze the learning rate of various tests before and after playing video games to see how the learning rate differed between groups. The paper found that people who played action videos games learned faster on new tests. @Zhang2021 refer to this as "learning to learn"
 
 ### Constructs Involved
 
 |           | Operational Level                                                                                             | Construct Level            |
-|----------------|---------------------------------------|----------------|
+|-----------------|--------------------------------------|-----------------|
 | Units     | Adults with normal vision, low play time on video games                                                       | People                     |
-| Treatment | First Person Shooters vs Simulator Games                                                                      | Action games               |
+| Treatment | First Person Shooters vs Simulator Games                                                                      | Action games[^4]           |
 | Outcome   | Learning Rate Parameter as defined as $\rho$ and $a$ for orientation and working memory learning respectively | Learning rate conceptually |
-| Settings  | Individual's home for Treatment & Lab for Tests                                                               | Experimental Settings      |
+| Settings  | France; Individual's home for Treatment & Lab for Tests                                                       | Experimental Settings      |
+
+[^4]: Would it be Action vs No Action?
+
+### Curiosities
+
+-   How does one validate a statistical parameter with a abstract concept?
+
+-   When looking at treatment construct is there a case when it is not just treatment vs non treatment. Even if the operations is something else
+
+-   Their result is that action video games have a higher learning rate compared to non action video games. Shouldn't they look at the change in learning rate from pre vs post instead of action vs non-action?
+
+    -   This is a little implied I think since in pre treatment the groups were comparable in their learning rates
+
+### Things I don't/didn't know
+
+-   What are Psychometric Functions?
+
+-   How were the results of parameters distributions consolidated across subjects
+
+    -   The mean of each person's parameter distribution is used at their observation
+
+    -   I am curious about information loss from summarizing a whole person's parameter distribution into one value. Is the mean even the best statistic for central tendency. In a posterior context median would be more sufficient?
